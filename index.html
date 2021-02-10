@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,23 +16,24 @@
     <title>Document</title>
 </head>
 
-
 <body>
 
-
     <header class="header">
-        <div class="header-top">
-            <div class="header-top-container">
-                <a class="header-phone" href="tel:+79088651457">Позвоните нам</a>
-                <a class="header-email" href="mailto:servisclub77@gmail.com">E-mail</a>
-                <a class="popup-top" data-fancybox data-src="#modal" href="javascript:;">Оставьте заявку</a>
+        <div class="header__top">
+            <div class="container">
+                <div class="header__contacts">
+                    <a class="header__phone" href="tel:+79088651457">Позвоните нам</a>
+                    <a class="header__email" href="mailto:servisclub77@gmail.com">E-mail</a>
+                    <a class="header__btn popup-btn" data-fancybox data-src="#modal" href="javascript:;">Оставьте
+                        заявку</a>
+                </div>
             </div>
         </div>
-        <div class="header-content">
-            <div class="header-content-container">
-                <div class="header-content-inner">
-                    <div class="header-logo">
-                        <a href="http://a0412638.xsph.ru/">
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <div class="header__logo">
+                        <a href="https://servis-club.herokuapp.com/">
                             <img src="img/logo3.png" alt="logo">
                         </a>
                     </div>
@@ -54,44 +54,43 @@
     <main>
         <section class="slider">
             <div class="container">
-                <div class="slider_inner">
-
-                    <div class="slider_item">
-                        <div class="slider_item-content">
-                            <div class="slider_title">
+                <div class="slider__inner">
+                    <div class="slider__item">
+                        <div class="slider__item-content">
+                            <div class="slider__title">
                                 Бесплатная диагностика
                             </div>
-                            <div class="slider_text">
+                            <div class="slider__text">
                                 Наши мастера в кратчайшие сроки установят причину любых неполадок ващего оборудования.
                             </div>
-                            <a data-fancybox data-src="#modal" href="javascript:;" class="slider_button default_button">
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn popup-btn">
                                 Оставить заявку
                             </a>
                         </div>
                     </div>
-                    <div class="slider_item">
-                        <div class="slider_item-content">
-                            <div class="slider_title">
+                    <div class="slider__item">
+                        <div class="slider__item-content">
+                            <div class="slider__title">
                                 Выезд мастера
                             </div>
-                            <div class="slider_text">
+                            <div class="slider__text">
                                 Если вам необходимо, вы можете попросить мастера приехать к вам и решить ваши проблемы.
                             </div>
-                            <a data-fancybox data-src="#modal" href="javascript:;" class="slider_button default_button">
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn popup-btn">
                                 Оставить заявку
                             </a>
                         </div>
                     </div>
-                    <div class="slider_item">
-                        <div class="slider_item-content">
-                            <div class="slider_title">
+                    <div class="slider__item">
+                        <div class="slider__item-content">
+                            <div class="slider__title">
                                 Сборка ПК под ключ
                             </div>
-                            <div class="slider_text">
+                            <div class="slider__text">
                                 Специалисты нашей компании подберут максимально эффективное решение в соответствии с
                                 вашим бюджетом.
                             </div>
-                            <a data-fancybox data-src="#modal" href="javascript:;" class="slider_button default_button">
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn popup-btn">
                                 Оставить заявку
                             </a>
                         </div>
@@ -102,93 +101,74 @@
 
         <section class="services">
             <div class="container">
-                <div class="services_top">
-                    <div class="services_title-box">
-                        <div class="services-title">
+                <div class="services__top">
+                    <div class="services__title-box">
+                        <div class="services__title">
                             Доверьте ремонт профессионалам
                         </div>
-                        <div class="services-text">
+                        <div class="services__text">
                             Наши мастера справятся с любыми возможными проблемами в кратчайшие сроки и мы гарантируем
                             качество оказываемых услуг.
                         </div>
                     </div>
-                    <div class="services_button">
+                    <div class="services__btn">
                         <a href="#">
                             Показать все услуги
                         </a>
                     </div>
                 </div>
-                <div class="services_items">
-
-                    <div class="services_item">
-
-
-                        <div class="services_item-title">
+                <div class="services__items">
+                    <div class="services__item">
+                        <div class="services__item-title">
                             Замена экрана смартфона
                         </div>
-                        <div class="services_item-text">
+                        <div class="services__item-text">
                             Наши специалисты подберут необходимые запчасти и произведут замену в кротчайшие
                             сроки.<br /><br /> <strong>Цена услуги: 1000₽.</strong>
                         </div>
-                        <div class="services_item-btn">
-
-                            <a href="#" class="services_item-link">
+                        <div class="services__item-btn">
+                            <a href="#" class="services__item-link">
                                 Подробнее
                             </a>
-
-                            <a data-fancybox data-src="#modal" href="javascript:;" class=" default_button">
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="popup-btn">
                                 Заказать
                             </a>
-
                         </div>
                     </div>
-
-                    <div class="services_item">
-
-                        <div class="services_item-title">
+                    <div class="services__item">
+                        <div class="services__item-title">
                             Чистка устройства
                         </div>
-                        <div class="services_item-text">
+                        <div class="services__item-text">
                             Мы произведём необходимое обслуживание вашего устройства в целях профилактики неисправностей
                             и уменьшения нагрева. <br /><br /> <strong>Цена услуги: 600₽.</strong>
                         </div>
-                        <div class="services_item-btn">
-
-                            <a href="#" class="services_item-link">
+                        <div class="services__item-btn">
+                            <a href="#" class="services__item-link">
                                 Подробнее
                             </a>
-
-                            <a data-fancybox data-src="#modal" href="javascript:;" class=" default_button">
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="popup-btn">
                                 Заказать
                             </a>
-
                         </div>
                     </div>
-
-
-                    <div class="services_item">
-
-                        <div class="services_item-title">
+                    <div class="services__item">
+                        <div class="services__item-title">
                             Восстановление данных
                         </div>
-                        <div class="services_item-text">
+                        <div class="services__item-text">
                             В случае поломки вашего накопителя произведём максимально возможное восстановление всех
                             потерянных данных. <br /><br /> <strong>Цена услуги: 2000₽.</strong>
                         </div>
-                        <div class="services_item-btn">
-
-                            <a href="#" class="services_item-link">
+                        <div class="services__item-btn">
+                            <a href="#" class="services__item-link">
                                 Подробнее
                             </a>
-
-                            <a data-fancybox data-src="#modal" href="javascript:;" class=" default_button">
+                            <a data-fancybox data-src="#modal" href="javascript:;" class="popup-btn">
                                 Заказать
                             </a>
-
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </section>
@@ -196,18 +176,18 @@
 
         <section class="about">
             <div class="container">
-                <div class="about-inner">
-                    <div class="about-title">
+                <div class="about__inner">
+                    <div class="about__title">
                         О компании
                     </div>
-                    <div class="about-text">
+                    <div class="about__text">
                         Компания специализируется на оказании услуг в сфере ремонта и настройки как персонального
                         оборудования, так и профессионального.
                         На сегодняшний день, коллектив компании объединяет
                         высокопрофессиональных экспертов имеющих
                         специализации в отдельных областях ремонта, диагностики и настройки оборудования.
                     </div>
-                    <a href="#" class=" default_button about_btn">
+                    <a href="#" class="about__btn popup-btn">
                         Узнать больше
                     </a>
                 </div>
@@ -216,30 +196,27 @@
 
         <section class="consult">
             <div class="container">
-                <div class="consult-inner">
-                    <div class="consult_content">
-                        <div class="consult_title-box">
-                            <div class="consult_title">
+                <div class="consult__inner">
+                    <div class="consult__content">
+                        <div class="consult__title-box">
+                            <div class="consult__title">
                                 Получить консультацию
                             </div>
-                            <div class="consult_text">
+                            <div class="consult__text">
                                 Комплексный подход к вашему вопросу, своевременная качественная помощь,
                                 устранение неполадок любого характера.
                             </div>
                         </div>
-                        <div class="consult_box">
+                        <div class="consult__box">
                             <form>
-
                                 <!-- Hidden Required Fields -->
                                 <input type="hidden" name="project_name" value="Servis-club.ru">
                                 <input type="hidden" name="admin_email" value="30003oleg@gmail.com">
                                 <input type="hidden" name="form_subject" value="consult-form">
                                 <!-- END Hidden Required Fields -->
 
-
-
-                                <div class="consult_box-inner">
-                                    <div class="consult_box-left">
+                                <div class="consult__box-inner">
+                                    <div class="consult__box-left">
                                         <label for="">
                                             E-mail
                                             <input type="text" name="E-mail">
@@ -263,12 +240,12 @@
                                             </select>
                                         </label>
                                     </div>
-                                    <div class="consult_box-right">
+                                    <div class="consult__box-right">
                                         <label>
                                             Кратко опишите вашу проблему
                                             <textarea type="text" name="Problem"></textarea>
                                         </label>
-                                        <button type="submit" class="default_button">
+                                        <button type="submit" class="popup-btn">
                                             Получить консультацию
                                         </button>
                                     </div>
@@ -284,7 +261,7 @@
         <section class="advantages">
             <div class="container">
                 <div class="advantages__inner">
-                    <div class="advantages-ilem">
+                    <div class="advantages__item">
                         <div class="advantages__title">
                             Сотни довольных клиентов
                         </div>
@@ -293,7 +270,7 @@
                             компании.
                         </div>
                     </div>
-                    <div class="advantages-ilem">
+                    <div class="advantages__item">
                         <div class="advantages__title">
                             Прозрачные цены
                         </div>
@@ -302,7 +279,7 @@
                             любой момент можете с ними ознакомиться.
                         </div>
                     </div>
-                    <div class="advantages-ilem">
+                    <div class="advantages__item">
                         <div class="advantages__title">
                             Найдём с вами общий язык
                         </div>
@@ -314,27 +291,6 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
-        <section class="waste">
-            <div class="container">
-                <div class="waste-inner">
-                    <div class="waste_title-box">
-                        <div class="waste-inner_title">
-                            Почему вы должны обратиться именно к нам?
-                        </div>
-                    </div>
-                    <div class="waste-inner_text">
-                        Наши специалисты
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
     </main>
 
 
@@ -350,7 +306,7 @@
                         <div class="footer__text">
 
                         </div>
-                        <a class="popup-top" data-fancybox data-src="#modal" href="javascript:;">Оставьте заявку</a>
+                        <a class="popup-top footer__btn" data-fancybox data-src="#modal" href="javascript:;">Оставьте заявку</a>
                         <div class="footer__list">
                             <li><a class="footer__phone" href="tel:+79088651457">+7 (908) 865 14 57</a></li>
                             <li><a href="mailto:servisclub77@gmail.com">servisclub77@gmail.com</a></li>
@@ -404,7 +360,6 @@
     <script src="scripts/jquery.fancybox.min.js"></script>
     <script src="scripts/slick.min.js"></script>
     <script src="scripts/jquery.formstyler.min.js"></script>
-
     <script src="scripts/script.js"></script>
     <script src="mail.js"></script>
 
